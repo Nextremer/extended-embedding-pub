@@ -1,6 +1,7 @@
 # extended-embedding-pub
 
 Sentiment Analysis by radical(of Japanese kanji character)-level encoder.
+
 This encoder refers to following paper.
 - https://www.jstage.jst.go.jp/article/tjsai/33/4/33_D-I23/_pdf/-char/ja)
 
@@ -17,6 +18,7 @@ This encoder refers to following paper.
 Directory configuration as follows.
 - create_vocab.py
 - radical_classifier.py
+- char2radical.py
 - datasets
   - radical_dic.csv
   - set your train/test datasets

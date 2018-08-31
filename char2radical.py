@@ -1,5 +1,11 @@
 # coding: utf-8
 
+"""
+Written_by: Sugimoto Shun
+Created_at: 2018-08-31
+Abstract: 標準入力された文字列の部首を返却するプログラム
+"""
+
 import pandas as pd
 import numpy as np
 
