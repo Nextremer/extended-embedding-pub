@@ -29,6 +29,7 @@ def get_radical(char):
 
 if __name__ == "__main__":
     radical_df = get_radical_dict()
+
     radicals = np.array(radical_df['RADICAL'])
     characters = np.array(radical_df['CHARACTER'])
 
