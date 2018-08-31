@@ -21,7 +21,7 @@ def get_radical_dict(dict_path=RADICAL_DICT_PATH):
 def get_radical(char):
     try:
         char_ids = np.where(characters == char)[0]
-        radical = radicals[char_ids[0]]
+        radical = radicals[char_ids[0]].split(' ')
     except IndexError:
         return char
     return radical
@@ -37,4 +37,4 @@ if __name__ == "__main__":
         if sentence == '0':
             break
         for char in sentence:
-            print(get_radical(char))
+            print(list(get_radical(char)))
