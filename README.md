@@ -16,13 +16,14 @@ This encoder refers to following paper.
 ## Usage
 
 Directory configuration as follows.
-- create_vocab.py
-- radical_classifier.py
-- char2radical.py
-- datasets
-  - radical_dic.csv
-  - set your train/test datasets
-
+```
+├── create_vocab.py
+├── radical_classifier.py
+├── char2radical.py
+└── datasets
+    ├── radical_dic.csv
+    └── set [train/test datasets]
+```
 
 Make vocabulary-dictionary of your datasets with the ./datasets/radical_dic.csv
 ```:bash
